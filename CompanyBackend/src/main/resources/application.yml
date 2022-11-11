@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    hikari:
+      username: root
+      password: root
+    url: jdbc:mysql://localhost:3306/emp
+  jpa:
+    hibernate:
+      ddl-auto: 'update '
+my:
+  defaultId: 4
+  defaultString: Yoyoyo
+  defaultInt: 19999
+  defaultBool: false
+  defaultStringArray: one,two,three
+  defaultIntArray: 1,2,3,4
+  defaultDouble: 9.99
+  
